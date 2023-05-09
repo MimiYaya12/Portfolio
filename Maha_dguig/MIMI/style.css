@@ -1,0 +1,392 @@
+body{
+    background-color: rgb(5, 5, 5);
+}
+
+
+
+
+#navbarText{
+    background-color: transparent;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+
+header .nav{
+    justify-content: space-between;
+    width: 50%;
+    background-color: white;
+}
+header .nav .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .nav .image img{
+    width: 205px;
+}
+header .nav .image p{
+    display: flex;
+    margin-top: 2%;
+}
+header .nav .lorem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+header .nav .image p span{
+    color: orange;
+}
+
+header .nav .lorem p{
+    text-align: end;
+    margin-bottom: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav .lorem .liens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    font-size: 15px;
+}
+header .nav .lorem .liens a{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+    
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+.container .card{
+    height: 45%;
+    border-radius: 0%;
+}
+
+.container .store{
+    display: flex;
+    flex-flow: row wrap;
+   /* flex-direction: column;*/
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    background-color: whitesmoke;
+
+
+}
+.card-title{
+    width: fit-content;
+    font-size: 85%;
+    display: flex;
+    flex-direction: row nowrap;
+    text-align: center;
+    align-items: center;
+}
+.card{
+    width: 18rem;
+}
+.card .red{
+    text-align: center;
+    width: 4.5rem;
+    color: orange;
+    background-color: rgba(41,41,41,255) ;
+    border-radius: 7px;
+    margin-left: 80%;
+}
+.card-body p a{
+    width: 4.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+.card-body p strong{
+    color: orange;
+}
+.card-body p s{
+    color: #6d6c6c;
+}
+
+
+
+.hero img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main{
+    justify-content: center;
+    height: 50%;
+}
+#tien{
+    width: max-content;
+    margin: auto;
+    font-size: 12px;
+    height: 39px;
+    background-color: white;
+    text-align: center;
+	display: flex;
+    justify-content: center;
+    /* text-align: center; */
+	/* background: red; */
+	border-radius: 5px;
+}
+ul{
+    padding: 0;
+}
+#tien li{
+	display: inline-block;
+	margin: 5px;
+    margin-top: 9px;
+	/* font-size: 110%; */
+    font-size: 12px;
+    vertical-align: sub;
+}
+#tien li a{
+    width: 100%;
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.zero{
+	border-radius: 10px;
+}
+/*Logo*/
+
+.if1{
+	display: flex;
+	margin: auto;
+    justify-content: center;
+}
+.unité{
+	margin: 3%;
+	height: 20px;
+}
+hr{
+    color: whitesmoke;
+}
+.if2{
+    
+    text-align: center;
+	/* margin-left: 41%; */
+}
+.bg2{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+footer{
+    justify-content: center;
+    background: rgb(55, 55, 55);
+    text-align: center;
+    align-items: center;
+}
+#f12{
+    margin: auto;
+    width: 50%;
+}
+
+.ter{
+	position: relative;
+	display: flex;
+	margin-left: 23%;
+}
+.der{
+	display: flex;
+    justify-content: center; 
+} 
+#Busi{
+    display: flex;
+    flex-direction: row;
+}
+
+.uni{
+	margin: 6%;
+}
+.bg{
+	color: white;
+	margin: 1%;
+	font-size: 10px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1135px){
+    header .nav{
+        justify-content: center;
+    }
+    header .nav .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    header .nav .image p{
+        margin-left: 25%;
+        font-size: 15px;
+    }
+    header .nav .lorem{
+        float: none;
+       display: inline-block;
+        justify-content: center;
+        width: 100%;
+    }
+    header .nav .lorem .liens{
+        font-size: 15px;
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+        white-space: nowrap;
+        width: 100%;
+    }
+    header .nav .lorem p{
+        font-size: 15px;
+        width: max-content;
+        margin-right: 100%;
+        margin-bottom: 5%;
+    }
+    header .nav .lorem .liens a{
+        margin-left: 0;
+    }
+    header .nav .image img{
+        width: 50%;
+        margin-left: 25%;
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media only screen and (max-width: 740px){
+  
+    header .nav .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    header .nav .image p{
+        margin-left: 25%;
+        font-size: 13px;
+    }
+    header .nav .lorem{
+        float: none;
+       display: inline-block;
+        justify-content: center;
+        text-align: center;
+    }
+    header .nav .lorem .liens{
+        font-size: 12px;
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+        white-space: nowrap;
+    }
+    header .nav .lorem p{
+        font-size: 12px;
+        margin-right: 58%;
+        margin-bottom: 5%;
+    }
+    header .nav .image img{
+        width: 50%;
+        margin-left: 25%;
+        font-size: 14px;
+        margin-bottom: 5%;
+    }
+    footer{
+        height:80%;
+        width: 55%;
+        margin: auto;
+    }
+    footer .der .ter{
+        width: 25%;
+    }
+    footer .ter{
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-around;
+    }
+    footer .der{
+        font-size: 5px;
+        display: flex;
+        flex-wrap: row wrap;
+        justify-content: space-around;
+    }
+    footer .der p{
+        word-wrap: inherit;
+    }
+    .if1{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #Busi{
+        flex-wrap: wrap;
+    }
+    #Busi div{
+        width: 50%;
+    }
+    #f12{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    header .nav .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    header .nav .lorem {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    header .nav .lorem .liens{
+        font-size: 50%;
+        justify-content: space-between;
+        display: flex;
+        text-align: center;
+        white-space: nowrap;
+    }
+    header .nav .lorem p{
+        font-size: 50%;
+        margin-right: 65%;
+        margin-bottom: 5%;
+    }
+    header .nav .image img{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+}
+
+
